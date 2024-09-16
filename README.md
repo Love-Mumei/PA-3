@@ -7,9 +7,9 @@
   ## Tasks:
   a. Load the .csv file
   b. Display the first and last five rows of the table of data
-## Approach
-* to load a .csv file can be loaded by using the .read syntax
-* to display the first five rows I used the .head() code and for the last 5 rows I used .tail() code
+  ## Approach
+  * to load a .csv file can be loaded by using the .read syntax
+  * to display the first five rows I used the .head() code and for the last 5 rows I used .tail() code
 
   # Problem 2:
   ## Tasks:
@@ -22,4 +22,3 @@
   * to locate 'Mazda RX4' I used .loc which specifically contains the 'Model' to filter the DataFrame
   * To find the cylinder number of the Camaro I used .loc() to and input the row of the Camaro and input the 'cul' to filter the column and get the value for the Camaro.
   * To find the following car models I used .loc to locate the rows where the cars are located and use the name of the columns to filter the output.
- 
